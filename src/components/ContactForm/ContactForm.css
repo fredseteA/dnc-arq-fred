@@ -1,0 +1,17 @@
+.contact-form{
+    margin: 160px auto;
+    width: 100%;
+    max-width: 797px;
+    text-align: center;
+}
+
+.contact-form form{
+    margin: 40px 0;
+    width: 100%;
+}
+
+.contact-form .form-group{
+    column-gap: 30px;
+    margin: 40px 0; 
+    
+}

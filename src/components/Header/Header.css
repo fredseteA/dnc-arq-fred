@@ -1,0 +1,97 @@
+.header{
+    background-color: white;
+    padding: 50px 0;
+}
+
+.mobile-menu{
+    display: none;
+}
+
+nav ul, li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+}
+
+nav a{
+    text-decoration: none;
+    color: #292F36;
+    font-size: 20px;
+    margin: 0 0 0 50px;
+}
+nav a:hover{
+    color: #0C70F2;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.75); /* escurece o fundo */
+    z-index: 0; /* fica atrás do menu */
+  }
+
+@media (max-width: 768px) {
+
+    nav{
+        background-color: #1d1d1d;
+        border-left: 10px #333333 solid;
+        display: none;
+        flex-direction: column;
+        height: 100%;
+        width: 40vw;
+        padding: 25px;
+        position: fixed; /*ocupa tela toda, de cima a baixo*/
+        right: 0;
+        top: 0;
+        z-index: 1; /*fica a frente dos outros componentes*/
+        transition: all 0.3s ease;
+    }
+
+    nav.open{
+        display: flex !important;
+        align-items: start;
+    }
+    
+    nav ul{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    nav ul li {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    nav a{
+        border-bottom: 1px solid white;
+        color: white;
+        font-size: 18px;
+        width: 100%;
+        padding: 20px 0 20px 0;
+        margin: 0;
+    }
+
+    .mobile-menu{
+        display: block;
+    }
+
+    .close-btn {
+        font-size: 28px !important;
+        align-self: flex-end;
+        background-color: #333333;
+        border-radius: 5px;
+        border: none;
+        color: white;
+        font-size: 20px;
+        padding: 5px 10px;
+        width: fit-content;
+        cursor: pointer;
+    }
+}
