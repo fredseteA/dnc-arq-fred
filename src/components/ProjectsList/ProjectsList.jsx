@@ -12,7 +12,7 @@ import Button from '../Button/Button'
 import {getApiData} from '../../services/apiServices'
 
 //CONTEXT
-import { AppContext } from '../../context/appContext'
+import { AppContext } from '../../context/AppContext'
 
 const ProjectsList = () => {
     const [projects, setProjects] = useState([])

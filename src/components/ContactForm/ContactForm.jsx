@@ -5,7 +5,7 @@ import { useState, useEffect, useContext } from 'react'
 import Button from '../Button/Button'
 
 //CONTEXT
-import { AppContext } from '../../context/appContext'
+import { AppContext } from '../../context/AppContext'
 
 const ContactForm = () => {
     

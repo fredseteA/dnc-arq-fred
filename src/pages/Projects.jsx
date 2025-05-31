@@ -5,7 +5,7 @@ import ProjectsList from '../components/ProjectsList/ProjectsList'
 import { useContext } from 'react'
 
 //CONTEXT
-import { AppContext } from '../context/appContext'
+import { AppContext } from '../context/AppContext'
 
 const Projects = () => {
 

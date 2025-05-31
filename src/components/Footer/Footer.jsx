@@ -15,7 +15,7 @@ import './Footer.css'
 import Button from '../Button/Button'
 
 //CONTEXT
-import { AppContext } from '../../context/appContext'
+import { AppContext } from '../../context/AppContext'
 
 const Footer = () =>{
     const appContext = useContext(AppContext)

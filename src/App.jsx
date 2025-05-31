@@ -9,7 +9,7 @@ import Projects from './pages/Projects'
 
 //UTILS
 import ScrollToTop from './utils/ScrollTop'
-import { AppContext } from './context/appContext'
+import { AppContext } from './context/AppContext'
 import LoadingSpinnerGif from './components/LoadingSpinner/LoadingSpinner'
 
 function App() {

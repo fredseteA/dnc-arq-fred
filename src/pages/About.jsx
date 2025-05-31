@@ -5,7 +5,7 @@ import AboutText from '../components/AboutText/AboutText'
 import { useContext } from 'react'
 
 //CONTEXT
-import { AppContext } from '../context/appContext'
+import { AppContext } from '../context/AppContext'
 
 const About = () => {
 

@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 import { useContext } from 'react'
 
 //CONTEXT
-import { AppContext } from '../../context/appContext'
+import { AppContext } from '../../context/AppContext'
 
 const Hero = () => {
     const appContext = useContext(AppContext)

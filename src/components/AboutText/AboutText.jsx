@@ -1,4 +1,4 @@
-import { AppContext } from '../../context/appContext'
+import { AppContext } from '../../context/AppContext'
 import './AboutText.css'
 import { useContext } from 'react'
 

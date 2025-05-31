@@ -5,7 +5,7 @@ import ContactForm from '../components/ContactForm/ContactForm'
 import { useContext } from 'react'
 
 //CONTEXT
-import { AppContext } from '../context/appContext'
+import { AppContext } from '../context/AppContext'
 
 const Contact = () => {
 

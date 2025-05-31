@@ -9,7 +9,7 @@ import './Header.css'
 import Button from '../Button/Button'
 
 //CONTEXT
-import { AppContext } from '../../context/appContext'
+import { AppContext } from '../../context/AppContext'
 
 const Header = () =>{
     const [isOpen, setIsOpen] = useState(false)
